@@ -1,0 +1,25 @@
+;= @echo off
+;= rem Call DOSKEY and use this file as the macrofile
+;= %SystemRoot%\system32\doskey /listsize=1000 /macrofile=%0%
+;= rem In batch mode, jump to the end of the file
+;= goto:eof
+;= Add aliases below here
+e.=explorer .
+gl=git log --oneline --all --graph --decorate  $*
+ls=ls --show-control-chars -F --color $*
+pwd=cd
+clear=cls
+history=cat "%CMDER_ROOT%\config\.history"
+unalias=alias /d $1
+vi=vim $*
+cmderr=cd /d "%CMDER_ROOT%"
+gs=git status  
+ga=git add .  
+gg=git commit  
+gc=git checkout -- .  
+neoClone=git clone git@neo:$*  
+proClone=git clone git@pro:$*  
+gitmepro=git config user.email tomica.trncic@gmail.com  
+go=git remote update $t git branch -vv  
+dev=npm run dev  
+gp=git pull  

@@ -1,0 +1,70 @@
+@-moz-document url-prefix("https://www.youtube.com/results") {
+  /* Filter button */
+  .yt-simple-endpoint.style-scope.ytd-toggle-button-renderer {
+      position: fixed;
+      top: 88px;
+      left: 295px;
+      z-index: 999;
+      border-radius: 3px
+  }
+
+  /* Filter divider */
+  ytd-search-sub-menu-renderer.style-scope.ytd-section-list-renderer {
+      margin-top: 0;
+      border-bottom: none;
+  }
+
+  /* Filter list */
+  #collapse-content.style-scope.ytd-search-sub-menu-renderer {
+      position: fixed;
+      top: 140px;
+      left: 295px;
+      z-index: 999;
+      width: 850px;
+      padding: 30px;
+      border-radius: 4px;
+  }
+
+  /* Filter list last child */
+  #collapse-content > ytd-search-filter-group-renderer:nth-child(5){
+      padding-right: 0;
+  }
+
+
+  /* -------------------------------------------------- */
+
+
+  /* [ Dark YouTube styles ] */
+
+  /* Filter button */
+  html[dark="true"] .yt-simple-endpoint.style-scope.ytd-toggle-button-renderer {
+      background: #232323;
+  }
+
+  html[dark="true"] .style-scope.ytd-search-sub-menu-renderer.style-default-active .yt-simple-endpoint.style-scope.ytd-toggle-button-renderer {
+      background: #45484d;
+  }
+
+  /* Filter list */
+  html[dark="true"] #collapse-content.style-scope.ytd-search-sub-menu-renderer {
+      background:  linear-gradient(135deg, #45484d 0%,#121212 100%);
+  }
+
+
+  /* [ Light YouTube styles ] */
+
+  /* Filter button */
+  html .yt-simple-endpoint.style-scope.ytd-toggle-button-renderer {
+      background: #e6e6e6;
+  }
+
+  .style-scope.ytd-search-sub-menu-renderer.style-default-active .yt-simple-endpoint.style-scope.ytd-toggle-button-renderer {
+      background: #eeeeee;
+  }
+
+  /* Filter list */
+  html #collapse-content.style-scope.ytd-search-sub-menu-renderer {
+      background:  linear-gradient(135deg, #eeeeee 0%,hsla(205, 35%, 95%, 0.96) 121%)
+  }
+
+  }

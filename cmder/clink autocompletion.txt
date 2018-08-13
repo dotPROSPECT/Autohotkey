@@ -1,0 +1,19 @@
+As mentioned above, 'cmder' is an amalgamation of other open source software. The software which controls the tab completion behaviour is 'clink'. To change this behaviour, navigate to your 'cmder' directory and then find:
+
+\cmder\vendor\clink\clink_inputrc_base
+
+Open 'clink_inputrc_base', save a backup original, and then replace both lines that read:
+
+"\t": clink-completion-shim
+
+with:
+
+"\t": menu-complete
+
+for shift+tab cycle backward behaviour, also add a line below each of the above lines that reads:
+
+"\e`Z": menu-complete-backward
+
+This worked for me. Credit to this link for the info on modifying clink behaviour:
+
+https://github.com/mridgers/clink/issues/190
