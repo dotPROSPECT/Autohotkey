@@ -1,6 +1,4 @@
-## Assortment of personal utilites, extensions, styles and other pieces of code. Some are modified, some written from scratch
-
----
+> Assortment of personal utilites, extensions, styles and other pieces of code. Some are modified, some written from scratch
 
 ## Git versioning
 
@@ -19,7 +17,7 @@ Allowed - **type**
 Allowed - [scope] <br>
 Define the extent of influence by the commit change.
 
-* **file-name**
+* **top-level-util**
 
 Format - *subject*
 

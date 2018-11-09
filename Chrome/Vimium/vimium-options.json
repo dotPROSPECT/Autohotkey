@@ -9,7 +9,7 @@
   "filterLinkHints": false,
   "waitForEnterForFilteredHints": true,
   "hideHud": false,
-  "keyMappings": "# Insert your preferred key mappings here.\n\nunmap <c-e>\nunmap j\nunmap u\n\nmap e scrollPageUp\nmap i scrollUp\nmap j goBack\nmap l goForward\nmap k scrollDown",
+  "keyMappings": "# Insert your preferred key mappings here.\n\nunmap <c-e>\nunmap j\nunmap u\n\nmap e scrollPageUp\nmap i scrollUp\nmap j goBack\nmap l goForward\nmap k scrollDown\nmap ~ visitPreviousTab\nmap ! firstTab\nmap f LinkHints.activateModeToOpenInNewTab",
   "linkHintCharacters": "sadfjklewcmpgh",
   "linkHintNumbers": "0123456789",
   "newTabUrl": "about:newtab",
