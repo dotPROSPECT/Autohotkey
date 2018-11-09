@@ -1,0 +1,42 @@
+@-moz-document domain("medium.com"), domain("freecodecamp.org") {
+  html {
+      overflow: visible !important
+  }
+
+  div.overlay.overlay--lighter,
+  div.overlay-content {
+      display: none
+  }
+
+  div.metabar.u-clearfix.js-metabar.u-fixed.u-backgroundTransparentWhiteDarkest.u-xs-sizeFullViewportWidth,
+  div.metabar.metabar--spacer.js-metabarSpacer.u-height65.u-xs-height56,
+  .butterBar-message {
+      display: none
+  }
+
+  body.is-withMagicUnderlines .postArticle.is-withAccentColors .markup--quote.is-other {
+      background: #868a95 !important
+  }
+
+  .u-tintBgColor {
+      background: transparent !important
+  }
+
+  body,
+  h1 {
+      color: rgba(245, 250, 255, 0.84) !important
+  }
+
+  pre {
+      border-radius: 5px;
+      background: rgba(0, 0, 0, 0.25) !important
+  }
+
+  canvas.canvas-renderer {
+      background: #4c565f
+  }
+
+  div.u-fixed.u-bottom0.u-width100pct.u-backgroundWhite.u-boxShadowTop.u-borderBox.u-paddingTop10.u-paddingBottom10.u-zIndexMetabar.u-xs-paddingLeft10.u-xs-paddingRight10.js-stickyFooter {
+      display: none
+  }
+  }
