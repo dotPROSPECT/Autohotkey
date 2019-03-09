@@ -1,0 +1,13 @@
+@-moz-document domain("toggl.com") {
+	.right-pane {
+		filter: hue-rotate(-151deg) invert(85%);
+	}
+
+	.css-q4twds.e191y2gl0 {
+		left: 0px !important;
+	}
+
+	.AnnouncementBar__root {
+		display: none;
+	}
+}
