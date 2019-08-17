@@ -26,8 +26,8 @@ Return
           ; [ Custom keyboard layout ]
 
 
-LAlt::LCtrl
-LCtrl::LAlt
+; LAlt::LCtrl
+; LCtrl::LAlt
 RAlt::CapsLock
 
 ; Switch [ with { and ] with }
