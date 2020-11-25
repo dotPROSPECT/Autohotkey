@@ -25,6 +25,7 @@ gs=git status
 ga=git add --all
 gg=git commit
 gc=git checkout -- .
+gcc=git branch --contains $*
 
 ;= User specific git commands
 tgcl=git clone git@thorne:$*
