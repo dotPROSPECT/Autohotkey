@@ -4,10 +4,10 @@
 ;= rem In batch mode, jump to the end of the file
 ;= goto:eof
 ;= Add aliases below here
-e.=explorer .
-history=cat "%CMDER_ROOT%\config\.history"
 
-;= CMDER
+;= CMDER DEF
+history=cat "%CMDER_ROOT%\config\.history"
+e.=explorer .
 unalias=alias /d $1
 
 ;= GIT
@@ -18,6 +18,7 @@ gs=git status
 ga=git add --all
 gg=git commit
 gc=git checkout -- .
+gcc=git branch --contains $*
 tgcl=git clone git@thorne:$*
 tgit=git config user.email tomica.trncic@gmail.com $t git config user.name Thom Thorne
 ngcl=git clone git@neo:$*
