@@ -28,7 +28,7 @@
         "defaults":
         {
             // Put settings here that you want to apply to all profiles.
-            "colorScheme": "Arc"
+            "colorScheme": "Arctic"
         },
         "list":
         [
@@ -74,7 +74,7 @@
   // To learn more about color schemes, visit https://aka.ms/terminal-color-schemes
   "schemes": [
     {
-        "name": "Arc",
+        "name": "Arctic",
         "background": "#2f353f",
         "black": "#21222C",
         "blue": "#3465af",

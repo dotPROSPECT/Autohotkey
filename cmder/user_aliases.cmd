@@ -5,10 +5,11 @@
 ;= goto:eof
 ;= Add aliases below here
 
-;= CMDER DEF
+;= COMMANDS
 history=cat "%CMDER_ROOT%\config\.history"
 e.=explorer .
 unalias=alias /d $1
+setwinenv=setx $*
 
 ;= GIT
 gl=git log --oneline --all --graph --decorate  $*
@@ -37,5 +38,5 @@ npmls=npm list -g --depth 0
 ls=ls --show-control-chars -F --color $*
 cmderr=cd /d "%CMDER_ROOT%"
 cpt=cd $b clip
-utilsdir=cd C:\Users\Thorne\Geekzone\Utilities
+navutils=cd /d C:\Users\Thorne\Geekzone\Utilities
 
