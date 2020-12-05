@@ -1,0 +1,187 @@
+cmder.exe -h
+cmder.exe /register all
+cmd /c %ConEmuDir%\ConEmu\Addons\utf-8-test.cmd
+ConEmuC -CheckUnicode
+git --version
+exit
+cmder.exe /unregister all
+cd Repos\
+proclone dotPROSPECT/ReactivityEngine
+npm run serve
+node reactivityEngine.js 
+npm install -g nodemon
+nodemon -v
+nodemon reactivityEngine.js 
+nodemon -e ts reactivityEngine.ts
+npm i -g ts-node
+npm i -g typescript
+tsc --init
+git config user.email tomica.trncic@gmail.com
+git config user.name Thom Thorne
+nodemon reactivityEngine.ts
+cld
+nodemon reactivityEngine.ts 
+git add README.md 
+cd 
+cd
+cd chdir
+chdir
+cd | clip
+alias cp = cd | clip
+alais
+alias cp = "cd | clip"
+alias cp=cd | clip
+alias cp="cd | clip"
+alias cp=cd|clip
+alias cp=cd $b clip
+cp
+alias -h
+alias /d cp 
+alias cpt=cd $b clip
+c:\Users\Thorne\Work\Repos\ReactivityEngine.ENV\ReactivityEngine
+clip /h
+clip -h
+clip /?
+dir
+clip < cd
+clip < cpt
+cd paste
+pase
+paste
+paste | cpt
+paste | cd
+paste | cd $t
+paste | cd $*
+echo %cd% |clip
+c:\Users\Thorne\Work\Repos\ReactivityEngine.ENV\ReactivityEngine 
+cpt 
+nodemon
+nodemon index.ts
+cd ./
+cd ./.
+cd c:\Users\Thorne\Work\Repos\ReactivityEngine.ENV\ReactivityEngine
+cd C:\Users\Thorne\Geekzone\Utilities
+csl
+paste | cd $1
+wpd
+pwd
+unalias pwd
+unalias vi
+alias thornegit=git config user.email tomica.trncic@gmail.com $t git config user.name Thom Thorne 
+unalias progit
+alias neogit=git config user.email ttrncic@autozubak.hr $t git config user.name tomica
+unalias clear
+clink
+ssh-keygen -t ed25519 -C "your_email@example.com"
+ALIAS
+proclone thomTHORNE/ReactivityEngine
+unalias proclone
+alias tgcl=git clone git@thorne:$*
+tgcl
+unalias thornegit
+alias tgit=git config user.email tomica.trncic@gmail.com $t git config user.name Thom Thorne
+unalias neogit
+alias ngit=git config user.email ttrncic@autozubak.hr $t git config user.name tomica
+alias ngcl==git clone git@neo:$*
+unalias neocloen
+unalias neoclone
+tgcl thomTHORNE/Utilities
+cd Utilities
+git remote set-url originthomTHORNE/PROJECT-Neotrello
+git remote set-url origin thomTHORNE/PROJECT-Neotrello
+git remote set-url origin thomTHORNE/PROJECT-Neotrello.git
+git remote set-url origin https://github.com/thomTHORNE/PROJECT-Neotrello
+git remote set-url origin git@thorne:/thomTHORNE/PROJECT-Neotrello
+git remote 0v
+cd C:\Users\Thorne\Work\Repos\ReactivityEngine.ENV\ReactivityEngine
+nodemon index.ts 
+cd vue-3-reactivity-master\
+node 06-ref.js 
+cd ReactivityEngine\
+tgit
+git puh
+git remote -vv
+git branch -all
+git branch --all
+git remote -v
+git push -h
+git push -u origin git@thorne:thomTHORNE/ReactivityEngine.git
+git remote --set-url origin git@thorne:thomTHORNE/ReactivityEngine.git
+git remote -h
+git remoteset-url origin git@thorne:thomTHORNE/ReactivityEngine.git
+git remote set-url origin git@thorne:thomTHORNE/ReactivityEngine.git
+gl
+cd PROJECT-NeoTrello
+cpt
+c
+cd C:\Users\Thorne\Work\Repos\PROJECT-NeoTrello.ENV\PROJECT-NeoTrello
+npm run build 
+git config user.name
+dev
+mkdir PROJECT-Menu.ENV
+cd PROJECT-Menu.ENV\
+tgcl thomTHORNE/PROJECT-Menu
+npm l
+npm -l
+npm outdated
+npm -g
+npm list -g
+npm list -g --depth 0
+alias 
+alias lsnpm= npm list -g --depth 0
+cls
+lsnpm
+npm update -g
+unalias lsnpm
+alias npmls=npm list -g --depth 0
+npmls
+alias npmug=npm update -g
+alias utilsdir=cd C:\Users\Thorne\Geekzone\Utilities
+cmmderr
+cd config\
+code user_aliases.cmd 
+GS
+utilsdir
+node -v
+nvm -v
+command -v nvm
+npm -v
+npx create-nuxt-app Menu
+GP
+cd SIDEOPS-LawFirm.ENV\
+tgcl crobuksacro/CroLawFirm/tree/master
+tgcl crobuksacro/CroLawFirm/
+tgcl crobuksacro/CroLawFirm
+cd CroLawFirm\
+gc
+gp
+cmderr
+%cmder_root%
+cd %cmder_root%
+setwivenv ssh C:\Users\Thorne\.ssh
+setwinenv ssh C:\Users\Thorne\.ssh
+%ssh%
+setwinenv utils C:\Users\Thorne\Geekzone\Utilities
+cd %utils%
+cd %ssh%
+alias
+e
+e %ssh%
+e %username%
+wt
+whois wt
+setx
+set
+%utils%
+ls
+cd ../
+setx /?
+e %userprofile%
+e %utils%
+e.
+code .
+go
+gs
+ga
+gg
+git push
