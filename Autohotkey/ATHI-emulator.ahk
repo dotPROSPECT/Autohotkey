@@ -9,11 +9,11 @@ F1::
 
    If A_IsSuspended
 
-      SoundPlay U:\User folders\Geekzone\Scripts\AutoHotkey\Hotkey sounds\buttonclickrelease.wav
+      SoundPlay %utils%\AutoHotkey\Hotkey sounds\buttonclickrelease.wav
 
    Else
 
-      SoundPlay U:\User folders\Geekzone\Scripts\AutoHotkey\Hotkey sounds\buttonrollover.wav
+      SoundPlay %utils%\AutoHotkey\Hotkey sounds\buttonrollover.wav
 
    Suspend
 
@@ -75,15 +75,13 @@ CapsLock & o::Send {PgDn}
 
 CapsLock & BS::Send {Del}
 
-CapsLock & z::Send {XButton1} ; the 'back' button on a mouse
+; CapsLock & z::Send {XButton1} ; the 'back' button on a mouse
 
-CapsLock & c::Send {XButton2} ; the 'forward' button on a mouse
+; CapsLock & c::Send {XButton2} ; the 'forward' button on a mouse
 
 ;-------------------------------------
 
 ; Close and reload application
-
-CapsLock & t:: Send ^{T}{Browser_Home}
 
 CapsLock & x::Send !{F4}
 
@@ -128,12 +126,26 @@ CapsLock & d::Send {Media_Next}
 
 ;-------------------------------------
 
-; PrintScreen etc.
+; Context menu
 
-CapsLock & p::Send {PrintScreen}
 CapsLock & g::Send {AppsKey}
 
 ;-------------------------------------
 
+; Simple AltTab
+
 CapsLock & v::AltTab
 CapsLock & b::ShiftAltTab
+
+;-------------------------------------
+
+; Arctic Terminal
+
+CapsLock & c::
+WinGet MX, MinMax, Arctic
+if (MX = -1) {
+	WinRestore Arctic
+} else if (MX = 0) {
+	WinMinimize Arctic
+} else Run wt.exe, %USERPROFILE%
+return
