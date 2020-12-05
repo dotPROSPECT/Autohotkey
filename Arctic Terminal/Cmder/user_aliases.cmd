@@ -8,6 +8,7 @@
 ;= COMMANDS
 history=cat "%CMDER_ROOT%\config\.history"
 e.=explorer .
+e=explorer $*
 unalias=alias /d $1
 setwinenv=setx $*
 
@@ -36,7 +37,5 @@ npmls=npm list -g --depth 0
 
 ;= NAVIGATION
 ls=ls --show-control-chars -F --color $*
-cmderr=cd /d "%CMDER_ROOT%"
 cpt=cd $b clip
-navutils=cd /d C:\Users\Thorne\Geekzone\Utilities
 

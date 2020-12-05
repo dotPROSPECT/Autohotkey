@@ -1,0 +1,7 @@
+[user]
+	email =
+	name =
+[core]
+	editor = code --wait
+[color "status"]
+	changed = yellow
