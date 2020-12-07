@@ -9,11 +9,11 @@ F1::
 
    If A_IsSuspended
 
-      SoundPlay %utils%\AutoHotkey\Hotkey sounds\buttonclickrelease.wav
+      SoundPlay %UTILITIES%\AutoHotkey\Hotkey sounds\buttonclickrelease.wav
 
    Else
 
-      SoundPlay %utils%\AutoHotkey\Hotkey sounds\buttonrollover.wav
+      SoundPlay %UTILITIES%\AutoHotkey\Hotkey sounds\buttonrollover.wav
 
    Suspend
 
