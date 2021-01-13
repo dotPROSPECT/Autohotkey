@@ -142,10 +142,14 @@ CapsLock & b::ShiftAltTab
 ; Arctic Terminal
 
 CapsLock & c::
-WinGet MX, MinMax, Arctic
-if (MX = -1) {
-	WinRestore Arctic
-} else if (MX = 0) {
-	WinMinimize Arctic
+if WinExist("ahk_exe WindowsTerminal.exe") {
+    WinGetTitle, WinTitle, ahk_pid %NewPID%
+    WinGet MX, MinMax, %WinTitle%
+    if (MX = -1) {
+        ; WinActivate, ahk_exe WindowsTerminal.exe
+        WinRestore %WinTitle%
+    } else if (MX = 0) {
+        WinMinimize %WinTitle%
+    }
 } else Run wt.exe, %USERPROFILE%
 return
