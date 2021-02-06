@@ -153,3 +153,32 @@ if WinExist("ahk_exe WindowsTerminal.exe") {
     }
 } else Run wt.exe, %USERPROFILE%
 return
+
+RShift & c::
+
+global windowName
+global X
+global Y
+global begWidth
+global begHeight
+
+WinGetTitle, windowName, A
+
+WinGetPos, X, Y, begWidth, begHeight, %windowName%
+
+CenterWindow(windowTitleVariable)
+{
+    WinGetPos,,, Width, Height, %windowTitleVariable%
+    WinMove, %windowTitleVariable%,, (A_ScreenWidth/2)-(1155/2), (A_ScreenHeight/2)-(650/2), 1155, 650
+}
+
+CenterWindow(windowName)
+
+return
+
+
+RShift & b::
+
+WinMove, %windowName%,, X, Y, begWidth, begHeight
+
+return
