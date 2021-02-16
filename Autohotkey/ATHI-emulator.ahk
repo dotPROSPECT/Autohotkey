@@ -69,9 +69,13 @@ CapsLock & h::Send {Home}
 
 CapsLock & n::Send {End}
 
-CapsLock & u::Send {PgUp}
+CapsLock & u::Send {LButton}
 
-CapsLock & o::Send {PgDn}
+CapsLock & o::Send {RButton}
+
+; CapsLock & u::Send {PgUp}
+
+; CapsLock & o::Send {PgDn}
 
 CapsLock & BS::Send {Del}
 
