@@ -69,10 +69,6 @@ CapsLock & h::Send {Home}
 
 CapsLock & n::Send {End}
 
-CapsLock & u::Send {LButton}
-
-CapsLock & o::Send {RButton}
-
 ; CapsLock & u::Send {PgUp}
 
 ; CapsLock & o::Send {PgDn}
@@ -140,6 +136,76 @@ CapsLock & g::Send {AppsKey}
 
 CapsLock & v::AltTab
 CapsLock & b::ShiftAltTab
+
+;-------------------------------------
+
+; Mouse move
+
+CapsLock & 0::
+While (GetKeyState("0", "P"))
+{
+    MouseMove, 0, -80, 3, R
+	sleep 0
+}
+Return
+
+CapsLock & p::
+While (GetKeyState("p", "P"))
+{
+    MouseMove, 0, 80, 3, R
+	sleep 0
+}
+Return
+
+CapsLock & 9::
+While (GetKeyState("9", "P"))
+{
+    MouseMove, -80, 0, 3, R
+	sleep 0
+}
+Return
+
+CapsLock & -::
+While (GetKeyState("-", "P"))
+{
+    MouseMove, 80, 0, 3, R
+	sleep 0
+}
+Return
+
+;-------------------------------------
+
+; Mouse click
+
+CapsLock & o::
+    Send {LButton}
+Return
+
+CapsLock & {::
+    Send {RButton}
+Return
+
+;-------------------------------------
+
+; Mouse scroll
+
+LCtrl & 0::
+While (GetKeyState("0", "P"))
+{
+	send {WheelUp}
+	;send ^{Up}
+	sleep 21
+}
+Return
+
+LCtrl & p::
+While (GetKeyState("p", "P"))
+{
+	send {WheelDown}
+	;send ^{Down}
+	sleep 21
+}
+Return
 
 ;-------------------------------------
 
