@@ -181,7 +181,7 @@ CapsLock & o::
     Send {LButton}
 Return
 
-CapsLock & {::
+CapsLock & \::
     Send {RButton}
 Return
 
@@ -189,8 +189,8 @@ Return
 
 ; Mouse scroll
 
-LCtrl & 9::
-While (GetKeyState("9", "P"))
+CapsLock & {::
+While (GetKeyState("{", "P"))
 {
 	send {WheelUp}
 	;send ^{Up}
@@ -198,8 +198,8 @@ While (GetKeyState("9", "P"))
 }
 Return
 
-LCtrl & -::
-While (GetKeyState("-", "P"))
+CapsLock & }::
+While (GetKeyState("}", "P"))
 {
 	send {WheelDown}
 	;send ^{Down}
