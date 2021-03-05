@@ -144,7 +144,7 @@ CapsLock & b::ShiftAltTab
 CapsLock & 0::
 While (GetKeyState("0", "P"))
 {
-    MouseMove, 0, -80, 3, R
+    MouseMove, 0, -80, 2, R
 	sleep 0
 }
 Return
@@ -152,7 +152,7 @@ Return
 CapsLock & p::
 While (GetKeyState("p", "P"))
 {
-    MouseMove, 0, 80, 3, R
+    MouseMove, 0, 80, 2, R
 	sleep 0
 }
 Return
@@ -160,7 +160,7 @@ Return
 CapsLock & 9::
 While (GetKeyState("9", "P"))
 {
-    MouseMove, -80, 0, 3, R
+    MouseMove, -80, 0, 2, R
 	sleep 0
 }
 Return
@@ -168,7 +168,7 @@ Return
 CapsLock & -::
 While (GetKeyState("-", "P"))
 {
-    MouseMove, 80, 0, 3, R
+    MouseMove, 80, 0, 2, R
 	sleep 0
 }
 Return
