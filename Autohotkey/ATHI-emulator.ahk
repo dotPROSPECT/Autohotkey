@@ -189,8 +189,8 @@ Return
 
 ; Mouse scroll
 
-LCtrl & 0::
-While (GetKeyState("0", "P"))
+LCtrl & 9::
+While (GetKeyState("9", "P"))
 {
 	send {WheelUp}
 	;send ^{Up}
@@ -198,8 +198,8 @@ While (GetKeyState("0", "P"))
 }
 Return
 
-LCtrl & p::
-While (GetKeyState("p", "P"))
+LCtrl & -::
+While (GetKeyState("-", "P"))
 {
 	send {WheelDown}
 	;send ^{Down}
