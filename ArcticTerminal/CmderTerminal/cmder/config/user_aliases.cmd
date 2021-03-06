@@ -40,4 +40,6 @@ npmls=npm list -g --depth 0
 ;= NAVIGATION
 ls=ls --show-control-chars -F --color $*
 cpt=cd $b clip
+lsd=ls --show-control-chars -F --color $* --width=1 -a --group-directories-first
+
 
