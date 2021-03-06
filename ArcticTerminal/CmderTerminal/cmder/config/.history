@@ -2,10 +2,8 @@ cmder.exe -h
 cmder.exe /register all
 cmd /c %ConEmuDir%\ConEmu\Addons\utf-8-test.cmd
 ConEmuC -CheckUnicode
-git --version
 exit
 cmder.exe /unregister all
-cd Repos\
 proclone dotPROSPECT/ReactivityEngine
 npm run serve
 node reactivityEngine.js 
@@ -23,7 +21,6 @@ cld
 nodemon reactivityEngine.ts 
 git add README.md 
 cd 
-cd
 cd chdir
 chdir
 cd | clip
@@ -42,7 +39,6 @@ c:\Users\Thorne\Work\Repos\ReactivityEngine.ENV\ReactivityEngine
 clip /h
 clip -h
 clip /?
-dir
 clip < cd
 clip < cpt
 cd paste
@@ -64,7 +60,6 @@ cd C:\Users\Thorne\Geekzone\Utilities
 csl
 paste | cd $1
 wpd
-pwd
 unalias pwd
 unalias vi
 alias thornegit=git config user.email tomica.trncic@gmail.com $t git config user.name Thom Thorne 
@@ -73,7 +68,6 @@ alias neogit=git config user.email ttrncic@autozubak.hr $t git config user.name 
 unalias clear
 clink
 ssh-keygen -t ed25519 -C "your_email@example.com"
-ALIAS
 proclone thomTHORNE/ReactivityEngine
 unalias proclone
 alias tgcl=git clone git@thorne:$*
@@ -98,26 +92,19 @@ nodemon index.ts
 cd vue-3-reactivity-master\
 node 06-ref.js 
 cd ReactivityEngine\
-tgit
 git puh
-git remote -vv
 git branch -all
 git branch --all
-git remote -v
 git push -h
 git push -u origin git@thorne:thomTHORNE/ReactivityEngine.git
 git remote --set-url origin git@thorne:thomTHORNE/ReactivityEngine.git
 git remote -h
 git remoteset-url origin git@thorne:thomTHORNE/ReactivityEngine.git
 git remote set-url origin git@thorne:thomTHORNE/ReactivityEngine.git
-gl
-cd PROJECT-NeoTrello
-cpt
 c
 cd C:\Users\Thorne\Work\Repos\PROJECT-NeoTrello.ENV\PROJECT-NeoTrello
 npm run build 
 git config user.name
-dev
 mkdir PROJECT-Menu.ENV
 cd PROJECT-Menu.ENV\
 tgcl thomTHORNE/PROJECT-Menu
@@ -129,12 +116,10 @@ npm list -g
 npm list -g --depth 0
 alias 
 alias lsnpm= npm list -g --depth 0
-cls
 lsnpm
 npm update -g
 unalias lsnpm
 alias npmls=npm list -g --depth 0
-npmls
 alias npmug=npm update -g
 alias utilsdir=cd C:\Users\Thorne\Geekzone\Utilities
 cmmderr
@@ -152,9 +137,6 @@ cd SIDEOPS-LawFirm.ENV\
 tgcl crobuksacro/CroLawFirm/tree/master
 tgcl crobuksacro/CroLawFirm/
 tgcl crobuksacro/CroLawFirm
-cd CroLawFirm\
-gc
-gp
 cmderr
 %cmder_root%
 cd %cmder_root%
@@ -162,26 +144,172 @@ setwivenv ssh C:\Users\Thorne\.ssh
 setwinenv ssh C:\Users\Thorne\.ssh
 %ssh%
 setwinenv utils C:\Users\Thorne\Geekzone\Utilities
-cd %utils%
 cd %ssh%
-alias
 e
 e %ssh%
 e %username%
 wt
 whois wt
+%utils%
+setx /?
+e %utils%
+\e.
+ALIAS
+calc
+cd %userprofile%
+cd Work\
+cd Repos\
+cd [ENV].SIDEOPS-LawFirm\
+ls yellow
+ls black
+ls /h
+ls /?
+ls -h
+dir
+cd vhrom
+cd Chrome\
+gop
+cd %utils%
+git config pull.ff only
+vs .
+devenv.exe
+git clean -h
+git clean Logs/Log-20201207.txt
+git clean -d  Logs/Log-20201207.txt
+git clean -n
+git clean 
+git clean -d 
+git clean -d -n
+git clean -d -f
+git clean -df
+git restore -i
+alias local=npm run local
+unalias local
+tgit
+ls %ssh%
+dir %ssh%
+git pull
+e. %userprofile%
+e %userprofile%
+git config
+git config --global
+git config --global -l
+git pull -ff
+git clean
+git clean -i
+git clean -i -n
+git clean -f -n
+git pull -h
+git config pull.rebase false
+gae.
+e.
+ggga
+git remote -v
+git branch -D vue/master 
+git pull -f
+git restore Web\Logs\Log-20201213.txt 
+git reset origin master --hard
+git reset origin  --hard
+git reset --hard head origin 
+git reset --hard heaorigin 
+git reset --hard origin 
+ng --version
+ng
+npm run ng --version
+git reset head origin/master
+git reset head origin 
+git reset head origin/master --hard
+git reset head origin --hard
+git reset -h
+git reset --hard head 
+git reset --hard head origin
+git reset --hard head master
+git reset --hard origin
+ngcl https://NeostarCom@dev.azure.com/NeostarCom/Neostar/_git/AutoZubak.NeostarPlatform
+git clone https://NeostarCom@dev.azure.com/NeostarCom/Neostar/_git/AutoZubak.NeostarPlatform
+nsgcl git@ssh.dev.azure.com:v3/NeostarCom/Neostar/AutoZubak.NeostarPlatform
+nsgcl v3/NeostarCom/Neostar/AutoZubak.NeostarPlatform
+gi
+ng 
+cd c:\Users\Thorne\Work\Repos\[ENV].SIDEOPS-CroLawFirm\CroLawFirm\LawFirmAngular\BasicVideoChatAngular\ClientApp\src\app
+npm star
+CLS
+devenv
+cpt
+cd c:\Users\Thorne\Work\Repos\[ENV].SIDEOPS-CroLawFirm\CroLawFirm\LawFirmAngular\BasicVideoChatAngular\ClientApp\src\app\video
+npm start
+npm run build
+gswin64 -o "C:\Users\Thorne\Downloads\TEST-Deus Ex Black Light by Swallow James (z-lib.org).pdf" -sDEVICE=pdfwrite -c "{1 exch sub}{1 exch sub}{1 exch sub}{1 exch sub} setcolortransfer" -f "C:\Users\Thorne\Downloads\Deus Ex Black Light by Swallow James (z-lib.org).pdf"
+set 
+gswin64.exe -o "C:\Users\Thorne\Downloads\TEST-Deus Ex Black Light by Swallow James (z-lib.org).pdf" -sDEVICE=pdfwrite -c "{1 exch sub}{1 exch sub}{1 exch sub}{1 exch sub} setcolortransfer" -f "C:\Users\Thorne\Downloads\Deus Ex Black Light by Swallow James (z-lib.org).pdf"
+npm install -g @angular/cli
+nsgcl v3/NeostarCom/LunchBreak/Web
+git checkout development 
+git checkout feature/basic-menu 
+gcd
+npmls
+npmug
+%work%
+env.exe
+env--PROJECT-NeoTrello\
+cd env--PROJECT-NeoTrello\
+cd PROJECT-NeoTrello
+code ,
+pwc
+cd %work%
+ls
+git config --system core.longpaths true
+git reset --hard origin/development
+npm i
+cd
+pwd
+npm run loca
+npm run local
+stat
+statx
+env
+cd %utilities%
+E .
+devenv .
+ipconfig /all
+cd C:\Program Files\WindowsApps\Microsoft.WindowsTerminal_1.4.3243.0_x64__8wekyb3d8bbwe\wt.exe
+cd C:\Users\Thorne\Work\Repos\env--SIDEOPS-CroLawFirm
+cd CroLawFirm
+gc
+git reset --hard master
+git reset --hard origin/master
+g
+e .
+git branch -vv
+git remote update
+git remote 
+git remote -vv
+cd ../
+mkdir test
+cd test\
+tgcl crobuksacro/CroLawFirm.git
+cd CroLawFirm\
+cd Web\
+ho
+gl
+gp
+code .
+alias
+npm run dev
+dev
+tgcl crobuksacro/FakturicaCore.git
+%GIT%
+git
+git -v
+git --version
 setx
 set
-%utils%
-ls
-cd ../
-setx /?
-e %userprofile%
-e %utils%
-e.
-code .
-go
+which git
+where git
 gs
-ga
+cls
+go
 gg
+git psuh
 git push
+ga

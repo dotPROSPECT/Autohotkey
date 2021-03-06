@@ -36,9 +36,9 @@
                 // Make changes here to the powershell.exe profile.
                 "guid": "{80f2e82d-c2d0-4733-b498-6869dc2f8b2a}",
                 "name": "Arctic",
-                "commandline": "cmd.exe /k %CMDER_ROOT%\\vendor\\init.bat", // An environment variable is not required
+                "commandline": "cmd.exe /k %CMDER_ROOT%\\vendor\\init.bat",
                 "startingDirectory": ".",
-                "icon": "%CMDER_ROOT%\\icons\\terminal.ico", // An environment variable is not required
+                "icon": "%CMDER_ROOT%\\icons\\terminal.ico",
                 "padding": "10",
                 "fontFace": "Hack NF",
                 "fontSize": 10,
