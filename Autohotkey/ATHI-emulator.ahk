@@ -221,7 +221,7 @@ if WinExist("ahk_exe WindowsTerminal.exe") {
     } else if (MX = 0) {
         WinMinimize %WinTitle%
     }
-} else Run wt.exe, %USERPROFILE%
+} else Run wt.exe, %UTILITIED%
 return
 
 RShift & c::
