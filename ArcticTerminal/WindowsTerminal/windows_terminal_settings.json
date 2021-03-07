@@ -27,6 +27,8 @@
     {
         "defaults":
         {
+            "backgroundImage": "C:/Users/Thorne/Pictures/Winter/michael-niessl-t7EEjZbRChY-unsplash.jpg",
+            "backgroundImageOpacity": 0.1,
             // Put settings here that you want to apply to all profiles.
             "colorScheme": "Arctic"
         },
