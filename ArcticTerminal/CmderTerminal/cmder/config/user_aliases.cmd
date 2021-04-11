@@ -28,6 +28,8 @@ tgcl=git clone git@thorne:$*
 tgit=git config user.email tomica.trncic@gmail.com $t git config user.name Thom Thorne
 nsgcl=git clone git@ns:$*
 nsgit=git config user.email tomica@neostar.com $t git config user.name tomica
+rsgcl=git clone git@rs:$*
+rsgit=git config user.email tomica@neostar.com $t git config user.name tomica
 azgcl=git clone git@az:$*
 azgit=git config user.email ttrncic@autozubak.hr $t git config user.name tomica
 
@@ -41,5 +43,3 @@ npmls=npm list -g --depth 0
 ls=ls --show-control-chars -F --color $*
 cpt=cd $b clip
 lsd=ls --show-control-chars -F --color $* --width=1 -a --group-directories-first
-
-
