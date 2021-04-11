@@ -32,6 +32,7 @@ rsgcl=git clone git@rs:$*
 rsgit=git config user.email tomica@neostar.com $t git config user.name tomica
 azgcl=git clone git@az:$*
 azgit=git config user.email ttrncic@autozubak.hr $t git config user.name tomica
+enablelongpath=git config --system core.longpaths true
 
 
 ;= NPM
