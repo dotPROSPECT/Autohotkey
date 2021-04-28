@@ -19,7 +19,7 @@ gp=git pull
 gs=git status
 ga=git add --all
 gg=git commit
-gc=git checkout -- .
+gc=git checkout :/
 gcc=git branch --contains $*
 gcd=git checkout development
 gcq=git checkout qa
@@ -37,6 +37,7 @@ enablelongpath=git config --system core.longpaths true
 
 ;= NPM
 dev=npm run dev
+local=npm run local
 npmug=npm update -g
 npmls=npm list -g --depth 0
 
