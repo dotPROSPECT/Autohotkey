@@ -221,7 +221,7 @@ if WinExist("ahk_exe WindowsTerminal.exe") {
     } else if (MX = 0) {
         WinMinimize %WinTitle%
     }
-} else Run wt.exe, %UTILITIES%
+} else Run "C:\Users\Thorne\AppData\Local\Microsoft\WindowsApps\Microsoft.WindowsTerminal_8wekyb3d8bbwe\wt.exe", %UTILITIES%
 return
 
 RShift & c::
@@ -239,7 +239,7 @@ WinGetPos, X, Y, begWidth, begHeight, %windowName%
 CenterWindow(windowTitleVariable)
 {
     WinGetPos,,, Width, Height, %windowTitleVariable%
-    WinMove, %windowTitleVariable%,, (A_ScreenWidth/2)-(1155/2), (A_ScreenHeight/2)-(650/2), 1155, 650
+    WinMove, %windowTitleVariable%,, (A_ScreenWidth/2)-(1455/2), (A_ScreenHeight/2)-(750/2), 1455, 750
 }
 
 CenterWindow(windowName)
