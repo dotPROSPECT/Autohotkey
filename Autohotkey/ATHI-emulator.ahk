@@ -1,4 +1,4 @@
-﻿; Author: .THORNE
+; Author: .THORNE
 
 #Persistent
 SetCapsLockState, AlwaysOff
@@ -67,7 +67,9 @@ CapsLock & l::Send {Blind}{right}
 
 CapsLock & h::Send {Home}
 
-CapsLock & n::Send {End}
+CapsLock & `;::Send {Enter}
+
+CapsLock & n::Send {Backspace}
 
 ; CapsLock & u::Send {PgUp}
 
@@ -86,6 +88,10 @@ CapsLock & BS::Send {Del}
 CapsLock & x::Send !{F4}
 
 CapsLock & r::Send ^{F5}
+
+CapsLock & c::Send ^{t}
+
+CapsLock & v::Send ^{w}
 
 ;-------------------------------------
 
@@ -129,13 +135,6 @@ CapsLock & d::Send {Media_Next}
 ; Context menu
 
 CapsLock & g::Send {AppsKey}
-
-;-------------------------------------
-
-; Simple AltTab
-
-CapsLock & v::AltTab
-CapsLock & b::ShiftAltTab
 
 ;-------------------------------------
 
@@ -211,7 +210,7 @@ Return
 
 ; Arctic Terminal
 
-CapsLock & c::
+CapsLock & t::
 if WinExist("ahk_exe WindowsTerminal.exe") {
     WinGetTitle, WinTitle, ahk_pid %NewPID%
     WinGet MX, MinMax, %WinTitle%
@@ -221,7 +220,7 @@ if WinExist("ahk_exe WindowsTerminal.exe") {
     } else if (MX = 0) {
         WinMinimize %WinTitle%
     }
-} else Run "C:\Users\Thorne\AppData\Local\Microsoft\WindowsApps\Microsoft.WindowsTerminal_8wekyb3d8bbwe\wt.exe", %UTILITIES%
+} else Run wt.exe, %UTILITIES%
 return
 
 RShift & c::
@@ -239,7 +238,7 @@ WinGetPos, X, Y, begWidth, begHeight, %windowName%
 CenterWindow(windowTitleVariable)
 {
     WinGetPos,,, Width, Height, %windowTitleVariable%
-    WinMove, %windowTitleVariable%,, (A_ScreenWidth/2)-(1455/2), (A_ScreenHeight/2)-(750/2), 1455, 750
+    WinMove, %windowTitleVariable%,, (A_ScreenWidth/2)-(1920/2), (A_ScreenHeight/2)-(1080/2), 1920, 1080
 }
 
 CenterWindow(windowName)
@@ -250,6 +249,54 @@ return
 RShift & b::
 
 WinMove, %windowName%,, X, Y, begWidth, begHeight
+
+return
+
+
+
+RShift & x::
+
+global windowName
+global X
+global Y
+global begWidth
+global begHeight
+
+WinGetTitle, windowName, A
+
+WinGetPos, X, Y, begWidth, begHeight, %windowName%
+
+CenterWindowLarge(windowTitleVariable)
+{
+    WinGetPos,,, Width, Height, %windowTitleVariable%
+    WinMove, %windowTitleVariable%,, (A_ScreenWidth/2)-(2000/2), (A_ScreenHeight/2)-(1600/2), 2000, 1500
+}
+
+CenterWindowLarge(windowName)
+
+return
+
+
+
+RShift & z::
+
+global windowName
+global X
+global Y
+global begWidth
+global begHeight
+
+WinGetTitle, windowName, A
+
+WinGetPos, X, Y, begWidth, begHeight, %windowName%
+
+CenterWindowExtraLarge(windowTitleVariable)
+{
+    WinGetPos,,, Width, Height, %windowTitleVariable%
+    WinMove, %windowTitleVariable%,, (A_ScreenWidth/2)-(2800/2), (A_ScreenHeight/2)-(1700/2), 2800, 1600
+}
+
+CenterWindowExtraLarge(windowName)
 
 return
 
@@ -279,4 +326,3 @@ Explorer_GetSelection() {
       result := shellFolderView.Folder.Self.Path
    Return result
 }
-
